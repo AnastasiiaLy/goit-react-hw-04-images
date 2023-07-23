@@ -14,7 +14,7 @@ const SearchBar = ({ onSubmit }) => {
     event.preventDefault();
 
     if (imagesName.trim() === '') {
-      Notiflix.Notify.failure('Please enter your name of the images');
+      Notiflix.Notify.failure('Please enter your name of the image');
       return;
     }
 
